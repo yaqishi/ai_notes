@@ -624,8 +624,6 @@ my_model = make_model(my_src_vocab, my_tgt_vocab)
 print(my_model(my_src, my_tgt, my_src_mask, my_tgt_mask).shape)
 ```
 
-
-
 # BERT
 
 > Devlin, Jacob, et al. "Bert: Pre-training of deep bidirectional transformers for language understanding." *arXiv preprint arXiv:1810.04805* (2018).
